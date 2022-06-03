@@ -6,7 +6,6 @@ import { Signup } from '../accounts/Signup'
 export const Account = () => {
   return (
     <>
-    <Admin />
     <Login />
     <Signup />
     </>

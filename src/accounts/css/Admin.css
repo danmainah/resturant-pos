@@ -62,7 +62,7 @@ input[type=password] {
 }
 
 .form-group {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   outline: 0px;
 }
 
@@ -107,8 +107,7 @@ label {
 }
 
 .login-btm {
-  float: center;
-  margin-top: 25px;
+  float: left;
 }
 
 .login-button {
@@ -125,8 +124,4 @@ label {
 
 .loginbttm {
   padding: 0px;
-}
-
-@media (max-size) {
-  
 }

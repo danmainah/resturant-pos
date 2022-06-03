@@ -1,11 +1,4 @@
-* { box-sizing: border-box; }
 
-body {
-	font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
-  color:white;
-  font-size:12px;
-  background:#333 ;
-}
 
 form {
  	background:#111; 
