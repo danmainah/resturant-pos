@@ -1,13 +1,13 @@
 import './App.css';
 import React from 'react';
 import { Account } from './components/Account';
-import { Admin } from './accounts/Admin';
+import { Menu } from './components/Menu';
 
 const App = () => {
   return (
     <>
       <Account />
-      <Admin />
+      <Menu />
     </>
   )
 }
