@@ -8,6 +8,7 @@ export const Account = () => {
     <>
     <Login />
     <Signup />
+    <Admin />
     </>
   )
 }
