@@ -1,0 +1,31 @@
+.container {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex-grow: 1;
+    height: 60rem;
+    width: 30%;
+    border: 5px solid white;  
+}
+
+.card h1 {
+    height: 15%;
+}
+
+.card p {
+    margin-top: 5rem;
+    height: 30%;
+    max-width: 40ch;
+}
+
+.card img {
+    height: 30%;
+}
+
+.card span {
+    display: flex;
+    justify-content: flex-start;
+}
