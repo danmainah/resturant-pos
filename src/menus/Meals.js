@@ -1,5 +1,5 @@
 import React from 'react'
-import { foods } from './array'
+import { foods } from './Array'
 import './css/Meals.css'
 
 
