@@ -1,11 +1,11 @@
 import { configureStore } from "@reduxjs/toolkit";
 import logger from 'redux-logger';
 import thunk from "redux-thunk";
-import userSlice from "./userSlice";
+import usersReducer from "./userSlice";
 
 export const store = configureStore({
     reducer: {
-        users: userSlice,
+        users: usersReducer,
         middleware: [thunk, logger],
     },
 });
