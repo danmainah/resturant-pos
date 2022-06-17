@@ -23,7 +23,6 @@ export const Signup = () => {
 
   const register = (e) => {
     e.preventDefault()
-    console.log(data)
     if(data){
       dispatch(addUser(data))
     }
@@ -34,11 +33,11 @@ export const Signup = () => {
         <h1>Employer Sign Up</h1>
         <div className="inset">
         <p>
-            <label for="email">EMAIL ADDRESS</label>
+            <label  htmlFor="email">EMAIL ADDRESS</label>
             <input type="text" name="email" id="email" onChange={handleChange}  required />
         </p>
         <p>
-            <label for="password">PASSWORD</label>
+            <label  htmlFor="password">PASSWORD</label>
             <input type="password" name="password" id="password" onChange={handleChange} required />
         </p>
     </div>

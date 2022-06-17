@@ -7,16 +7,16 @@ export const Login = () => {
         <h1>Employer Log in</h1>
         <div className="inset">
         <p>
-            <label for="email">EMAIL ADDRESS</label>
+            <label  htmlFor="email">EMAIL ADDRESS</label>
             <input type="text" name="email" id="email" />
         </p>
         <p>
-            <label for="password">PASSWORD</label>
+            <label  htmlFor="password">PASSWORD</label>
             <input type="password" name="password" id="password" />
         </p>
      <p>
       <input type="checkbox" name="remember" id="remember" />
-      <label for="remember">Remember me for 14 days</label>
+      <label  htmlFor="remember">Remember me for 14 days</label>
     </p>
     </div>
     <p className="p-container">
